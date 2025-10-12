@@ -42,7 +42,7 @@ table#tlayout {
 }
 
 body {
-	background: #18453B;
+	background: #0B9A6D;
 	font-family: Georgia;
 	/*font-size: 18px;  ? Add this line */ 
 	padding-bottom: 8px;
@@ -84,7 +84,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #18453B;
+	color: #0B9A6D;
 	text-decoration: none;
 }
 
@@ -148,7 +148,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #18453B;
+	color: #0B9A6D;
 	margin-top: 1.2em;
 	margin-bottom: 0.7em;
 	padding-bottom: 0.2em;
@@ -220,7 +220,7 @@ dl {
 }
 
 dd {
-	color: #18453B;
+	color: #0B9A6D;
 }
 
 dd > *:first-child {
