@@ -3,30 +3,13 @@
 rm -fr *.html
 
 
-./webmake meetings rules manual templates code  
-mv *.html ../inss
-chmod 644 ../inss/*.html
-chmod 644 ../code/*
-
-
-
-./webmake cse910 cse422
-mv *.html ../courses
-chmod 644 ../courses/*.html
-chmod 644 ../courses/cse910/*
-
-
 
 
 ./webmake index
-./webmake team projects publications resource openings 
-./webmake oran vehcom code wifi sensing isac antijam coexistence spectrum_sharing vital_sign lpi
-./webmake eccs-2225337 cns-1717840 cns-1846105  cns-2100112  cns-2113618  cns-2312448 eccs-2434001
-./webmake spectrum_sharing  mmwave mumimo  testbeds  coexistence   background  
          
     
 mv *.html ../
 rm -fr *~
 
 
-chmod 644 ../*html ../*css ../papers/*  ../photos/*  ../videos/*  ../templates/* 
+chmod 644 ../*html ../*css
