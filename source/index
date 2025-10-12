@@ -1,50 +1,52 @@
 # jemdoc: menu{menu}{index.html}
-# jemdoc: title{Huacheng Zeng}
+# jemdoc: title{Ning Xie}
 # jemdoc: fwtitle
 
 
 
 
-#~~~
-#{}{img_left}{photos/huacheng_zeng.jpg}{Dr. Zeng's profile picture}{210px}{245px}{}
-#
-#*{{<font size="4.8"> Huacheng Zeng </font>}}* 
-##{{<p>}}
-#
-##*{{<font size="4.5"> Associate Professor </font>}}* \n
-#*Associate Professor*\n
-#[http://cse.msu.edu/ *Department of Computer Science and Engineering*]\n
-#[https://www.egr.msu.edu/  *College of Engineering*]\n
-#[https://msu.edu/   *Michigan State University*]\n
-#
-#
-#428 S. Shaw Lane, Room 3115 \n
-#Engineering Building \n
-#East Lansing, MI 48824-1226\n
-#
-#Office: EB3144; 
-#Phone: (517) 353-3851; 
-#Email: hzeng \[at\] msu.edu{{<font color="white"></font>}} \n
-#~~~
+~~~
+{}{img_left}{photos/huacheng_zeng.jpg}{Dr. Zeng's profile picture}{210px}{245px}{}
+
+*{{<font size="4.8"> Huacheng Zeng </font>}}* 
+#{{<p>}}
+
+#*{{<font size="4.5"> Associate Professor </font>}}* \n
+*Associate Professor*\n
+[http://cse.msu.edu/ *Department of Computer Science and Engineering*]\n
+[https://www.egr.msu.edu/  *College of Engineering*]\n
+[https://msu.edu/   *Michigan State University*]\n
+
+
+428 S. Shaw Lane, Room 3115 \n
+Engineering Building \n
+East Lansing, MI 48824-1226\n
+
+Office: EB3144; 
+Phone: (517) 353-3851; 
+Email: hzeng \[at\] msu.edu{{<font color="white"></font>}} \n
+~~~
  
   
 == Recent News
- 
+
+This is test
 
 
 
 == Biography 
  
-Th siis test 
+This is test
 
 == Research Interests
  
+This is test
 
 == Awards and Honors
  
-
+This is test
 
  
 == Services
  
-
+This is test
