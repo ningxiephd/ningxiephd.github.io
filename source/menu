@@ -1,64 +1,6 @@
 
 {{<img src="photos/msu_logo3.png" alt="MSU" style="width:100%;">}}
 
-Faculty                       
-    Huacheng Zeng         [https://inss.egr.msu.edu/index.html]
-    #Background           [https://inss.egr.msu.edu/background.html]
-
-INSS Lab
-    Team 		 		 [https://inss.egr.msu.edu/team.html]
-	#Research scope       [https://inss.egr.msu.edu/scope.html]
-    Publications         [https://inss.egr.msu.edu/publications.html]
-    Projects             [https://inss.egr.msu.edu/projects.html]
-    Resource         [https://inss.egr.msu.edu/resource.html]
-    Openings         [https://inss.egr.msu.edu/openings.html]
-
-
-
-
-RA1: AI for Radio Sensing
-	ISAC in 5G O-RAN                       [https://inss.egr.msu.edu/isac.html]  
-	Human skeleton estimation         [https://inss.egr.msu.edu/sensing.html]    
-	Vital sign detection          [https://inss.egr.msu.edu/vital_sign.html]
-    
-RA2: AI for 5G/6G
-	DRL for 5G O-RAN           [https://inss.egr.msu.edu/oran.html]           
-    mmWave MIMO system           [https://inss.egr.msu.edu/mmwave.html]
-    Practical spectrum sharing        [https://inss.egr.msu.edu/spectrum_sharing.html]  
-    Coexistence of WiFi and LTE       [https://inss.egr.msu.edu/coexistence.html]
-	Vehicular network          [https://inss.egr.msu.edu/vehcom.html]	
-	Wi-Fi MU-MIMO systems              [https://inss.egr.msu.edu/wifi.html]           
-
-
-RA3: Wireless Security
-	Anti-jamming 5G          [https://inss.egr.msu.edu/antijam.html]	
-	Anti-eavesdropping       [https://inss.egr.msu.edu/lpi.html]	
-
-
-#Blind interference cancellation  [https://inss.egr.msu.edu/bic.html]
-#Wireless testbeds                 [https://inss.egr.msu.edu/testbeds.html]
-#Asynchronous MU-MIMO              [https://inss.egr.msu.edu/mumimo.html]    
-#Anti-jamming wireless comm        [https://inss.egr.msu.edu/aj.html]
-#Real-time mmWave testbed          [https://inss.egr.msu.edu/mmwave.html]
-
-
-
-#Research Projects
-#    NSF CNS-1717840      [https://inss.egr.msu.edu/cns-1717840.html]
-#    NSF CNS-1846105      [https://inss.egr.msu.edu/cns-1846105.html]
-#     NSF CNS-2100112      [https://inss.egr.msu.edu/cns-2100112.html]
-#    NSF CNS-2113618      [https://inss.egr.msu.edu/cns-2113618.html]
-#     NSF ECCS-2225337     [https://inss.egr.msu.edu/eccs-2225337.html]
-    
-Teaching (Intranet)
-    CSE 910            [https://inss.egr.msu.edu/courses/cse910.html]
-    CSE 422            [https://inss.egr.msu.edu/courses/cse422.html]
-
-
-Misc (Intranet)
-#    Lab website      [https://inss.egr.msu.edu]
-	Lab Rules         [https://inss.egr.msu.edu/inss/rules.html]
-#    Group meeting     [https://inss.egr.msu.edu/inss/meetings.html]
-#    Doc templates      [https://inss.egr.msu.edu/inss/templates.html]
-#    Reading list        [https://inss.egr.msu.edu/inss/readings.html]
-    Source Code        [https://inss.egr.msu.edu/inss/code.html]
+Background                       
+    Ning Xie         [https://ningxiephd.github.io/index.html]
+ 
