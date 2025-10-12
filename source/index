@@ -1,0 +1,81 @@
+# jemdoc: menu{menu}{index.html}
+# jemdoc: title{Ning Xie}
+# jemdoc: fwtitle
+
+
+
+
+
+~~~
+{}{img_left}{photos/huacheng_zeng.jpg}{Dr. Zeng's profile picture}{210px}{245px}{}
+
+*{{<font size="4.8"> Huacheng Zeng </font>}}* 
+#{{<p>}}
+
+#*{{<font size="4.5"> Associate Professor </font>}}* \n
+*Associate Professor*\n
+[http://cse.msu.edu/ *Department of Computer Science and Engineering*]\n
+[https://www.egr.msu.edu/  *College of Engineering*]\n
+[https://msu.edu/   *Michigan State University*]\n
+
+
+428 S. Shaw Lane, Room 3115 \n
+Engineering Building \n
+East Lansing, MI 48824-1226\n
+
+Office: EB3144; 
+Phone: (517) 353-3851; 
+Email: hzeng \[at\] msu.edu{{<font color="white"></font>}} \n
+~~~
+ 
+ 
+#\n
+#~~~
+#*We built a /real-time/ video communication system on 60GHz spectrum using Ettus USRP, ADI HMC6350 mmWave RF frontends, and patch antennas.*
+#{{ <img src="photos/mmwave_hmc6350.jpg" alt="mmWave testbed" style="width:250px;">}}
+#~~~
+ 
+#~~~
+#== Recent News
+#- 05/2020: One paper accepted by IEEE\/ACM Transactions on Networking
+#- 04/2020: One paper accepted by ACM MobiHoc
+#- 03/2020: One paper accepted by IEEE Internet of Things Journal
+#- 01/2020: Dr. Zeng serves as the Publicity Co-Chair of IEEE WCNC 2021
+#- 12/2019: One paper accepted by {{<font class="myred"> IEEE Transactions on Communications </font>}}
+#- 04/2019: We built [spectrum_sharing.html a practical spectrum sharing system] 
+#- 03/2019: Dr. Zeng received [index.html NSF CAREER Award]
+#- 02/2019: One paper accepted by [https://infocom2019.ieee-infocom.org/cnert-computer-and-networking-experimental-research-using-testbeds  IEEE Infocom Workshop on Computer and Networking Experimental Research using Testbeds (CNERT)]
+#- 12/2018: We built [mmwave.html a real-time mmWave (60 GHz) communication testbed]
+#- 11/2018: Two papers accepted by {{<font class="myred"> IEEE Infocom 2019 </font>}}
+#- 07/2018: One paper accepted by {{<font class="myred">  IEEE ICNP 2018 </font>}}
+#- 04/2018: One paper accepted by {{<font class="myred">  ACM MobiHoc 2018 </font>}}
+#- 03/2018: Two papers accepted by {{<font class="myred">  IEEE Transactions on Vehicular Technology </font>}}
+#- 10/2017: One paper accepted by {{<font class="myred"> IEEE Transactions on Communications </font>}}
+#- 06/2017: One paper accepted by {{<font class="myred"> IEEE Conference on Communications and Network Security (CNS) 2017 </font>}}
+#- 06/2017: One paper accepted by {{<font class="myred"> IEEE Transactions on Coommunications </font>}}
+#- 03/2017: Dr. Zeng invited to serve on the TPC of {{<font class="myred"> IEEE Infocom 2018 </font>}}
+#- 12/2016: Our paper accepted by {{<font class="myred"> IEEE Communications Letters </font>}}
+#- 12/2016: Our paper accepted by {{<font class="myred"> IEEE Transactions on Communications </font>}}
+#- 10/2016: Dr. Zeng serves as a TPC member of {{<font class="myred">  IEEE WCNC </font>}}
+#- 08/2016: Dr. Zeng joined UofL as an assistant professor in the Department of Electrical and Computer Engineering 
+#- 07/2016: Dr. Zeng was invited to serve as an Editor of [https://www.hindawi.com/journals/jcnc/si/845690/cfp/ Hindawi Journal of Computer Networks and Communications, Special Issue on Index Modulation for 5G Wireless Communications] 
+#- 07/2016: Dr. Zeng was invited to serve as an Editor of {{<font class="myred"> [https://www.hindawi.com/journals/jcnc/si/845690/cfp/ Hindawi Journal of Computer Networks and Communications, Special Issue on 5G wireless communications] </font>}}
+#~~~
+
+
+
+== Biography 
+  
+ 
+
+== Research Interests
+ 
+
+== Awards and Honors
+ 
+
+
+ 
+== Services
+ 
+

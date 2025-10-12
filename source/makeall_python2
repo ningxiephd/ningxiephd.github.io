@@ -1,0 +1,27 @@
+#!/bin/bash
+
+rm -fr *.html
+
+
+./webmake meetings rules manual templates code  
+mv *.html ../inss
+chmod 644 ../inss/*.html
+chmod 644 ../code/*
+
+
+
+./webmake cse910 cse422
+mv *.html ../courses
+chmod 644 ../courses/*.html
+chmod 644 ../courses/cse910/*
+
+
+
+
+
+./webmake scope spectrum_sharing  mmwave mumimo   testbeds  coexistence vehcom  background code courses resource   team  index  publications eccs-2225337 cns-1717840 cns-1846105  cns-2100112  cns-2113618 projects oran sensing wifi openings resource
+mv *.html ../
+rm -fr *~
+
+
+chmod 644 ../*html ../*css ../papers/*  ../photos/*  ../videos/*  ../templates/* 
