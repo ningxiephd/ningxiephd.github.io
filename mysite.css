@@ -94,12 +94,12 @@ a:hover {
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #18453B;
+	color: #0B9A6D;
 	font-weight: bold;
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #18453B;
+	color: #0B9A6D;
 	font-weight: bold;
 	text-decoration: none;
 }
