@@ -1,7 +1,7 @@
 /* Default css file for jemdoc. */
 
 .title-div {
-  background-color: #0B9A6D;      /* background */
+  background-color: #000003;      /* background */
   color: black;                    /* font color */
   font-size: 22px;                /* font size */
   font-family: Georgia;    /* font */
@@ -42,7 +42,7 @@ table#tlayout {
 }
 
 body {
-	background: #0B9A6D;
+	background: #000003;
 	font-family: Georgia;
 	/*font-size: 18px;  ? Add this line */ 
 	padding-bottom: 8px;
@@ -84,7 +84,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #0B9A6D;
+	color: #000003;
 	text-decoration: none;
 }
 
@@ -94,12 +94,12 @@ a:hover {
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #0B9A6D;
+	color: #000003;
 	font-weight: bold;
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #0B9A6D;
+	color: #000003;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -148,7 +148,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #0B9A6D;
+	color: #000003;
 	margin-top: 1.2em;
 	margin-bottom: 0.7em;
 	padding-bottom: 0.2em;
@@ -220,7 +220,7 @@ dl {
 }
 
 dd {
-	color: #0B9A6D;
+	color: #000003;
 }
 
 dd > *:first-child {
