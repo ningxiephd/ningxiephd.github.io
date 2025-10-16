@@ -5,10 +5,12 @@ rm -fr *.html
 
 
 
-./webmake index pub grants pr 
-./webmake teaching tinnovation mentoring
-./webmake service work ai health method         
-    
+./webmake index pub grants 
+./webmake pr ai health method         
+./webmake teaching tinnovation mentoring tdevelopment
+./webmake service work
+
+
 mv *.html ../
 rm -fr *~
 
