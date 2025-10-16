@@ -3,15 +3,16 @@
 # jemdoc: fwtitle
 
 
+== Projects
 
-SpartiCare: An AI-driven intervention for mental health and wellbeing.
+- SpartiCare: An AI-driven intervention for mental health and wellbeing.
 
 Ning Xie, [https://inss.egr.msu.edu/ Huacheng Zeng], & [https://em-lab.berkeley.edu/EML/index.php Guangwei Min]
 
-Our team is working with an entrepreneurship incubator program with the vision to patent and commercialize this product.
+- Our team is working with an entrepreneurship incubator program with the vision to patent and commercialize this product.
 We are applying for funding for this project from government, foundation and corporate sources.
 
-SpartiPal: An AI-chatbot for career preparedness.
+- SpartiPal: An AI-chatbot for career preparedness.
 Ning Xie
 
 
@@ -22,6 +23,8 @@ Ning Xie
 }}
 
 
+== Others
+
 I am conducting research based on these AI chatbots, testing their features, functionalities, and impact on behavioral outcomes.
 
 I also teach AI and emerging technologies including:
@@ -29,6 +32,8 @@ I also teach AI and emerging technologies including:
 - Augmented reality, virtual reality
 - Gamification
 - Data analytics & visualization tools
-  
+ 
+~~~
 I gratefully acknowledge insightful discussions with:
 Ralf Schmalzle, on AI & VR [https://comartsci.msu.edu/ralfschmaelzle https://comartsci.msu.edu/ralfschmaelzle]
+~~~
