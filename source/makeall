@@ -7,7 +7,7 @@ rm -fr *.html
 
 ./webmake index pub grants pr 
 ./webmake teaching tinnovation mentoring
-         
+./webmake service work         
     
 mv *.html ../
 rm -fr *~
