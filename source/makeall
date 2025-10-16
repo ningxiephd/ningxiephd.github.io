@@ -5,7 +5,7 @@ rm -fr *.html
 
 
 
-./webmake index
+./webmake index pub
          
     
 mv *.html ../
