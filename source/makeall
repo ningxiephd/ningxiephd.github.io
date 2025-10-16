@@ -15,4 +15,6 @@ rm -fr *~
 
 chmod 644 ../*html ../*css
 
-../upload
+cd ..
+./upload
+cd source
