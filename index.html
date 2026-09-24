@@ -1,76 +1,119 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Ning Xie, Ph.D.</title>
-  <meta name="description" content="Ning Xie, Ph.D. Research development professional, program manager, and communication scholar working across program operations, collaborative research, health communication, and partnerships.">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ning Xie, Ph.D.</title>
+<meta name="description" content="Ning Xie, Ph.D. — Research development professional, program manager, and communication scholar." />
+<style>
+:root{--green:#18453B;--green2:#2b5d52;--text:#202426;--muted:#687075;--rule:#e7ebe9;--soft:#f6f8f7;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--text);font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.67;-webkit-font-smoothing:antialiased}
+a{color:var(--green2);text-decoration-color:#a9bbb6;text-underline-offset:3px}
+a:hover{color:var(--green)}
+.site-header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.97);border-bottom:1px solid var(--rule)}
+.nav{max-width:1180px;margin:auto;min-height:68px;padding:0 28px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.brand{font-weight:700;font-size:22px;color:var(--green);text-decoration:none;white-space:nowrap}
+.links{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.links a{font-size:15.5px;font-weight:600;color:#31564d;text-decoration:none}
+.links a:hover{text-decoration:underline;text-underline-offset:6px}
+.shell{max-width:1120px;margin:auto;padding:58px 28px 84px;display:grid;grid-template-columns:255px minmax(0,1fr);gap:62px;align-items:start}
+.profile{position:sticky;top:105px}
+.photo{display:block;width:245px;height:245px;border-radius:50%;object-fit:cover;object-position:50% 30%;background:#f1f3f2}
+.profile h2{font-size:25px;line-height:1.25;margin:22px 0 12px;color:var(--green);padding-bottom:10px;border-bottom:1px solid var(--rule)}
+.role{font-size:16px;font-weight:700;color:#555d60;line-height:1.7}
+.meta{margin-top:15px;color:var(--muted);font-size:15.5px}
+.profile-links{margin-top:18px;font-size:15.5px;line-height:1.9}
+.main{min-width:0;max-width:780px}
+.kicker{font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--green2);font-weight:700;margin-bottom:9px}
+h1{font-size:49px;line-height:1.08;letter-spacing:-.035em;margin:0;color:var(--green)}
+.lede{font-size:24px;line-height:1.42;font-weight:600;margin:24px 0 19px;max-width:760px}
+.intro{font-size:18px;color:#3d4447;margin:0 0 18px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);margin:36px 0 32px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.stat{padding:18px 15px 17px;border-right:1px solid var(--rule)}
+.stat:first-child{padding-left:0}
+.stat:last-child{border-right:none}
+.stat strong{display:block;color:var(--green);font-size:17px;margin-bottom:5px}
+.stat span{display:block;color:var(--muted);font-size:13.5px;line-height:1.45}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:26px 0 8px}
+.card{background:var(--soft);border-top:3px solid var(--green);padding:18px 18px 19px}
+.card h3{font-size:17px;line-height:1.3;color:var(--green);margin:0 0 9px}
+.card p{font-size:15.5px;line-height:1.62;margin:0;color:#3f4548}
+.section{padding-top:74px;scroll-margin-top:82px}
+.section-title{font-size:34px;line-height:1.2;color:var(--green);letter-spacing:-.02em;margin:0 0 8px}
+.section-sub{font-size:20px;font-weight:600;margin:0 0 18px;padding-bottom:13px;border-bottom:1px solid var(--rule)}
+h3.subhead{font-size:21px;margin:29px 0 9px;color:#25292b}
+.focus-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:22px 0}
+.focus{border:1px solid var(--rule);padding:16px 17px;background:#fff}
+.focus strong{display:block;color:var(--green);margin-bottom:5px}
+.focus p{margin:0;font-size:15.5px;color:#4a5053}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:23px 0 25px}
+.step{background:var(--soft);padding:15px;border-top:3px solid var(--green)}
+.step b{display:block;color:var(--green);font-size:15.5px;margin-bottom:5px}
+.step span{font-size:13.7px;color:#51585b;line-height:1.45}
+.callout{border-left:4px solid var(--green);padding:13px 18px;background:var(--soft);margin:24px 0;color:#37403d}
+ul.clean{padding-left:20px;margin-top:8px}
+ul.clean li{margin-bottom:8px}
+.footer{border-top:1px solid var(--rule);color:#8a9194;font-size:13px;padding:22px 28px;margin-top:35px}
+.footer-inner{max-width:1120px;margin:auto}
+@media(max-width:900px){.shell{grid-template-columns:210px 1fr;gap:36px}.photo{width:205px;height:205px}.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.flow{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){body{font-size:16px}.nav{padding:12px 18px;display:block}.brand{display:block;margin-bottom:8px}.links{gap:14px 18px}.shell{display:block;padding:36px 20px 70px}.profile{position:static;margin-bottom:42px}.photo{width:205px;height:205px}h1{font-size:39px}.lede{font-size:21px}.stats{grid-template-columns:1fr 1fr}.focus-grid{grid-template-columns:1fr}.flow{grid-template-columns:1fr 1fr}}
+</style>
 </head>
 <body>
-<header class="site-header">
-  <div class="nav-wrap">
-    <a class="brand" href="index.html">Ning Xie, Ph.D.</a>
-    <nav class="nav-links" aria-label="Primary navigation">
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="grant-research-development.html">Grant &amp; Research Development</a>
-      <a href="serving-the-community.html">Serving the Community</a>
-    </nav>
-  </div>
-</header>
-<main>
-  <div class="page-shell">
-    <aside class="profile">
-      <img src="images/ning-xie-headshot.JPG" class="profile-photo" alt="Ning Xie professional headshot">
-      <h2>Ning Xie, Ph.D.</h2>
-      <div class="profile-role">Research Development Professional<br>Program Manager<br>Communication Scholar</div>
-      <div class="profile-meta">Okemos, Michigan</div>
-      <div class="profile-links">
-        <a href="https://scholar.google.com/citations?user=f-8ihyUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a><br>
-        <a href="https://orcid.org/0009-0006-2299-0166" target="_blank" rel="noopener">ORCID</a>
-      </div>
-    </aside>
+<header class="site-header"><div class="nav"><a class="brand" href="#home">Ning Xie, Ph.D.</a><nav class="links"><a href="#home">Home</a><a href="#research">Research</a><a href="#grants">Grant &amp; Research Development</a><a href="#community">Serving the Community</a></nav></div></header>
+<main class="shell">
+<aside class="profile">
+<img class="photo" alt="Professional headshot of Ning Xie" src="ning-xie-headshot.jpg">
+<h2>Ning Xie, Ph.D.</h2>
+<div class="role">Research Development Professional<br>Program Manager<br>Communication Scholar</div>
+<div class="meta">Okemos, Michigan</div>
+<div class="profile-links"><a href="https://scholar.google.com/citations?user=f-8ihyUAAAAJ&hl=en" target="_blank">Google Scholar</a><br><a href="https://orcid.org/0009-0006-2299-0166" target="_blank">ORCID</a></div>
+</aside>
+<div class="main">
+<section id="home">
+<div class="kicker">Research development · Program management · Communication</div>
+<h1>Ning Xie, Ph.D.</h1>
+<p class="lede">I connect research strategy with the operating systems that help collaborative programs move from ideas to execution.</p>
+<p class="intro">My background spans university program development and operations, multidisciplinary health research, external proposal development, cross institutional partnerships, teaching, and community service. Across these roles, I have worked where research, administration, people, and implementation meet.</p>
+<p class="intro">I am especially interested in complex initiatives that require both strategic thinking and disciplined follow through: clarifying priorities, coordinating stakeholders, building practical workflows, tracking decisions and deliverables, and helping teams learn from one cycle to the next.</p>
+<div class="stats"><div class="stat"><strong>Nearly 5 years</strong><span>University program development and operations</span></div><div class="stat"><strong>7 years</strong><span>Multidisciplinary health research collaboration</span></div><div class="stat"><strong>5 publications</strong><span>Peer reviewed health related research</span></div><div class="stat"><strong>PI &amp; Co PI</strong><span>External proposal development experience</span></div></div>
+<div class="cards"><div class="card"><h3>Program Operations &amp; Coordination</h3><p>Work plans, timelines, meetings, stakeholder coordination, documentation, logistics, issue tracking, reporting, and reliable follow through across multiple workstreams.</p></div><div class="card"><h3>Grant &amp; Research Development</h3><p>Funding intelligence, proposal strategy, research design, budgets and supporting materials, team coordination, dissemination planning, and reusable development systems.</p></div><div class="card"><h3>Community &amp; Partnerships</h3><p>Cross cultural relationship building, institutional partnerships, teaching, mentoring, and community service grounded in listening, clarity, cultural humility, and respect.</p></div></div>
+</section>
 
-    <section class="main-column">
-      <div class="kicker">Research development · Program management · Communication</div>
-      <h1>Ning Xie, Ph.D.</h1>
-      <p class="lede">I connect research strategy with the operating systems that help collaborative programs move from ideas to execution.</p>
-      <p class="intro">My background spans nearly five years of university program development and operations, seven years of multidisciplinary health research collaboration, external proposal development, cross institutional partnerships, teaching, and community service. Across these roles, I have worked where research, administration, people, and implementation meet.</p>
-      <p class="intro">I am especially interested in complex initiatives that require both strategic thinking and disciplined follow through: clarifying priorities, coordinating stakeholders, building practical workflows, tracking decisions and deliverables, and helping teams learn from one cycle to the next.</p>
+<section class="section" id="research">
+<h2 class="section-title">Research</h2><p class="section-sub">Trust, risk perception, and health decisions</p>
+<p>My research examines how communication shapes trust, risk perception, and decision making in health and other high consequence contexts. The central through line is how people evaluate information, institutions, and communicators, and how those judgments influence what they believe and what they do.</p>
+<div class="focus-grid"><div class="focus"><strong>Trust in health and risk communication</strong><p>Trust, distrust, institutional credibility, message features, and risk perception.</p></div><div class="focus"><strong>Health communication and prevention</strong><p>Cancer prevention communication, alcohol and substance risk communication, and community crisis resilience.</p></div><div class="focus"><strong>Emerging technologies</strong><p>AI and other technologies as sources, tools, and communication environments that may shape trust and health decisions.</p></div><div class="focus"><strong>Methods</strong><p>Surveys, experiments, quantitative modeling, structural equation modeling, missing data methods, bootstrap inference, and multigroup analysis.</p></div></div>
+<div class="callout"><strong>Research direction:</strong> Communication and institutional context → trust and risk perception → health decisions.</div>
+<p>I also contribute to multidisciplinary health research spanning public health, epidemiology, oncology, neurology, surgery, nursing, pharmacy, and biomedical sciences. That work has resulted in five peer reviewed health related publications and has strengthened my experience working across disciplinary and institutional boundaries.</p>
+</section>
 
-      <div class="stat-strip" aria-label="Experience at a glance">
-        <div class="stat"><strong>Nearly 5 years</strong><span>University program development and operations</span></div>
-        <div class="stat"><strong>7 years</strong><span>Multidisciplinary health research collaboration</span></div>
-        <div class="stat"><strong>5 publications</strong><span>Peer reviewed health related research</span></div>
-        <div class="stat"><strong>PI &amp; Co PI</strong><span>External proposal development experience</span></div>
-      </div>
+<section class="section" id="grants">
+<h2 class="section-title">Grant &amp; Research Development</h2><p class="section-sub">From opportunity to organized execution</p>
+<p>I approach research development as a connected process rather than a sequence of isolated tasks. Strong programs need clear priorities, disciplined coordination, visible decisions, usable information, and a way to carry lessons forward.</p>
+<div class="flow"><div class="step"><b>1. Clarify</b><span>Define the opportunity, purpose, decision criteria, roles, and critical requirements.</span></div><div class="step"><b>2. Coordinate</b><span>Align people, timelines, materials, dependencies, and responsibilities across teams.</span></div><div class="step"><b>3. Make Visible</b><span>Use practical dashboards, trackers, decision logs, and reporting structures to surface progress and risk.</span></div><div class="step"><b>4. Learn &amp; Reuse</b><span>Capture feedback, patterns, templates, and lessons so the next cycle starts stronger.</span></div></div>
+<h3 class="subhead">Program operations and coordination</h3>
+<p>At the University of Louisville College of Business, I spent nearly five years supporting graduate and professional program growth, institutional partnerships, recruitment pipelines, events, and cross unit coordination. I worked across admissions, student services, international affairs, career services, marketing, academic leadership, external organizations, and university partners while managing the detailed execution that keeps complex initiatives moving.</p>
+<h3 class="subhead">Proposal and funding experience</h3>
+<p>I have served as Co Principal Investigator on a $100,000 Sony Research Award proposal and as Principal Investigator on an Arthur W. Page Center foundation proposal. My work has included project rationale, scope, methods, timelines, budgets and budget justification, data collection plans, dissemination planning, and proposal editing. I also maintain an active funding intelligence practice, including monitoring NIH, NCI, NIAAA, foundation, federal, and international opportunities relevant to my work.</p>
+<h3 class="subhead">Portfolio visibility and learning infrastructure</h3>
+<p>My approach to complex program management emphasizes simple systems that make work visible and reusable. Examples include integrated calendars, milestone and deliverable tracking, issue and decision logs, consistent templates, shared repositories, technical assistance records, and structured after action learning. These tools support accountability while reducing the need to recreate processes from scratch.</p>
+<div class="callout">I have not yet administered a national grantmaking portfolio. My experience is adjacent and transferable: university program operations, externally funded collaborative research, proposal development, multi stakeholder coordination, documentation, and building systems that support reliable execution and continuous learning.</div>
+</section>
 
-      <div class="cards">
-        <div class="card">
-          <h3>Program Operations &amp; Coordination</h3>
-          <p>Work plans, timelines, meetings, stakeholder coordination, documentation, logistics, issue tracking, reporting, and reliable follow through across multiple workstreams.</p>
-        </div>
-        <div class="card">
-          <h3>Grant &amp; Research Development</h3>
-          <p>Funding intelligence, proposal strategy, research design, budgets and supporting materials, team coordination, dissemination planning, and reusable development systems.</p>
-        </div>
-        <div class="card">
-          <h3>Community &amp; Partnerships</h3>
-          <p>Cross cultural relationship building, institutional partnerships, teaching, mentoring, and community service grounded in listening, clarity, cultural humility, and respect.</p>
-        </div>
-      </div>
-
-      <h2>Current Research Focus</h2>
-      <p>My research program centers on <strong>trust in health and risk communication</strong>: how communication features, institutions, social environments, and emerging technologies shape trust, risk perception, and health decisions. Current and emerging contexts include cancer prevention communication, alcohol and substance risk communication, and community crisis resilience.</p>
-
-      <h2>Connecting Research with Action</h2>
-      <p>I am most interested in collaborative work that brings researchers, program teams, institutions, funders, and communities together around consequential health and equity challenges. I value careful execution, clear communication, transparent decision making, strong relationships, and systems that turn experience into reusable knowledge.</p>
-      <div class="text-links"><a href="research.html">Explore Research</a><span>·</span><a href="grant-research-development.html">Grant &amp; Research Development</a><span>·</span><a href="serving-the-community.html">Serving the Community</a></div>
-    </section>
-  </div>
-</main>
+<section class="section" id="community">
+<h2 class="section-title">Serving the Community</h2><p class="section-sub">Relationship building grounded in respect, listening, and follow through</p>
+<p>My approach to community facing work is grounded in cultural humility and respect for the knowledge people bring from their own lived experiences. I do not treat one population, identity, or institutional context as interchangeable with another.</p>
+<h3 class="subhead">Community service and peer support</h3>
+<p>For several years, I have volunteered with Ark of Compassion, participating in online peer support meetings serving Asian immigrants experiencing psychological distress and difficult life circumstances. The experience has reinforced the importance of listening, dignity, mutual support, and meeting people where they are.</p>
+<h3 class="subhead">Cross cultural and university engagement</h3>
+<p>At the University of Louisville, I worked extensively with international students and institutional partners from varied cultural backgrounds, represented the university at community facing and professional events, and helped students and families navigate unfamiliar academic and professional systems.</p>
+<h3 class="subhead">Teaching, mentoring, and service leadership</h3>
+<p>I have taught at Michigan State University and the University of Maryland, mentored students and newer international teaching assistants, trained student interns, organized a 300 plus attendee university panel on graduate education and careers, and led a fundraising initiative for a former teacher diagnosed with leukemia.</p>
+<p>Across these settings, I have learned that trust is built through clarity, reciprocity, consistency, and follow through. Those principles shape both my community service and my professional approach to partnerships.</p>
+</section>
+</div></main>
 <footer class="footer"><div class="footer-inner">© 2026 Ning Xie, Ph.D.</div></footer>
-<script src="site.js"></script>
-</body>
-</html>
+</body></html>
