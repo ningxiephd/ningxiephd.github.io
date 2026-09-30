@@ -162,14 +162,12 @@ td {
   border-color: #e3e7e5;
 }
 
-/* Footer */
+/* Footer
+   Hide the entire AcademicPages footer, including:
+   Follow / Feed / copyright / Powered by / last updated / Sitemap.
+*/
 .page__footer {
-  background: #f6f7f6 !important;
-  color: #555555;
-}
-
-.page__footer a {
-  color: #18453B;
+  display: none !important;
 }
 
 @media (max-width: 768px) {
