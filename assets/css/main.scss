@@ -1,39 +1,179 @@
 ---
 ---
 
+@charset "utf-8";
+
 /*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * AcademicPages main stylesheet
+ * Module 2 visual customization for Ning Xie
  */
 
 @import
-    "vendor/breakpoint/breakpoint",
-
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
-    "include/mixins",
-    "vendor/susy/susy",
-
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv"
+  "vendor/breakpoint/breakpoint",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "custom",
+  "include/mixins",
+  "vendor/susy/susy",
+  "layout/reset",
+  "layout/base",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
+  "layout/forms",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands"
 ;
+
+/* =========================================================
+   MODULE 2: CLEAN WHITE + MSU SPARTAN GREEN
+   ========================================================= */
+
+:root,
+html[data-theme="dark"] {
+  --global-base-color: #18453B;
+  --global-bg-color: #ffffff;
+  --global-footer-bg-color: #f6f7f6;
+  --global-border-color: #e3e7e5;
+  --global-dark-border-color: #c9cfcc;
+  --global-code-background-color: #f7f8f7;
+  --global-code-text-color: #333333;
+  --global-fig-caption-color: #666666;
+  --global-link-color: #18453B;
+  --global-link-color-hover: #0f332d;
+  --global-link-color-visited: #18453B;
+  --global-masthead-link-color: #333333;
+  --global-masthead-link-color-hover: #18453B;
+  --global-text-color: #333333;
+  --global-text-color-light: #666666;
+  --global-thead-color: #f3f5f4;
+}
+
+html,
+body {
+  background: #ffffff !important;
+}
+
+body {
+  color: #333333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+}
+
+/* Top navigation */
+.masthead,
+.greedy-nav {
+  background: #ffffff !important;
+}
+
+.masthead {
+  border-bottom: 1px solid #e3e7e5;
+}
+
+.greedy-nav a {
+  color: #333333;
+  font-weight: 500;
+}
+
+.greedy-nav a:hover {
+  color: #18453B;
+}
+
+.greedy-nav .visible-links li.selected > a {
+  color: #18453B;
+  font-weight: 600;
+}
+
+.greedy-nav .visible-links li.selected > a::before {
+  background: #18453B;
+}
+
+/* Keep the site visually light */
+#theme-toggle {
+  display: none !important;
+}
+
+/* Sidebar */
+.author__name {
+  color: #18453B;
+  font-weight: 650;
+}
+
+.author__bio {
+  color: #444444;
+  line-height: 1.5;
+}
+
+.author__urls a {
+  color: #444444;
+}
+
+.author__urls a:hover {
+  color: #18453B;
+}
+
+/* Main content */
+.page__content a,
+.archive a {
+  color: #18453B;
+}
+
+.page__content a:hover,
+.archive a:hover {
+  color: #0f332d;
+}
+
+.page__title,
+.archive__subtitle {
+  color: #18453B;
+}
+
+.page__content h2 {
+  color: #18453B;
+  border-bottom: 1px solid #e3e7e5;
+  padding-bottom: 0.25em;
+}
+
+.page__content h3 {
+  color: #2f4f48;
+}
+
+hr {
+  border-color: #e3e7e5;
+}
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border-color: #e3e7e5;
+}
+
+/* Footer */
+.page__footer {
+  background: #f6f7f6 !important;
+  color: #555555;
+}
+
+.page__footer a {
+  color: #18453B;
+}
+
+@media (max-width: 768px) {
+  body {
+    line-height: 1.6;
+  }
+}
