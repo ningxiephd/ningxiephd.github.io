@@ -7,7 +7,7 @@
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
 
 <!-- Support for Font Awesome -->
- <link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css"></noscript>
 
 <!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
@@ -17,6 +17,96 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="var(--global-bg-color)"/>
+<meta name="theme-color" content="#ffffff"/>
+
+<style>
+  /* =========================================================
+     Ning Xie website, Module 2 locked visual layer
+     ========================================================= */
+
+  :root,
+  html[data-theme="dark"] {
+    --global-base-color: #18453B !important;
+    --global-bg-color: #ffffff !important;
+    --global-footer-bg-color: #ffffff !important;
+    --global-border-color: #e6e9e8 !important;
+    --global-dark-border-color: #cfd5d2 !important;
+    --global-code-background-color: #f7f8f7 !important;
+    --global-code-text-color: #333333 !important;
+    --global-fig-caption-color: #666666 !important;
+    --global-link-color: #18453B !important;
+    --global-link-color-hover: #0f332d !important;
+    --global-link-color-visited: #18453B !important;
+    --global-masthead-link-color: #333333 !important;
+    --global-masthead-link-color-hover: #18453B !important;
+    --global-text-color: #3f4345 !important;
+    --global-text-color-light: #666666 !important;
+    --global-thead-color: #f5f6f5 !important;
+  }
+
+  html,
+  body,
+  .masthead,
+  .greedy-nav {
+    background: #ffffff !important;
+  }
+
+  /* Spartan Green for content/sidebar links */
+  .page__content a,
+  .archive a,
+  .page__meta a,
+  .author__urls a {
+    color: #18453B !important;
+  }
+
+  .page__content a:hover,
+  .archive a:hover,
+  .page__meta a:hover,
+  .author__urls a:hover {
+    color: #0f332d !important;
+  }
+
+  /* Keep masthead navigation dark and clean */
+  .greedy-nav a,
+  .masthead__menu-item a {
+    color: #333333 !important;
+  }
+
+  .greedy-nav a:hover,
+  .masthead__menu-item a:hover {
+    color: #18453B !important;
+  }
+
+  /* No underline / active bar under the site title */
+  .masthead__menu-item--lg > a,
+  .masthead__menu-item--lg > a:hover,
+  .masthead__menu-item--lg > a:focus {
+    border-bottom: none !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+  }
+
+  .masthead__menu-item--lg > a::before,
+  .masthead__menu-item--lg > a::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  /* Remove the entire footer, including its gray area */
+  .page__footer,
+  footer.page__footer,
+  body > .page__footer,
+  .page__footer-follow,
+  .page__footer-copyright {
+    display: none !important;
+  }
+
+  /* Fallback in case a theme toggle is injected elsewhere */
+  #theme-toggle,
+  .theme-toggle,
+  .dark_mode_btn {
+    display: none !important;
+  }
+</style>
 
 <!-- end custom head snippets -->
