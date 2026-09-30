@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+title : "Ning Xie"
+title_separator : "|"
+name : &name "Ning Xie"
+description : &description "Research Development Professional, Program Manager, Communication Scholar"   # Update this with a general description of your site, this is the default if not overridden by a page
 url : "https://ningxiephd.github.io"
 baseurl : "/ningxie-website"
 repository : "ningxiephd/ningxie-website"
@@ -22,14 +22,14 @@ repository : "ningxiephd/ningxie-website"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  author:
+  avatar           :
+  name             : "Ning Xie"
+  pronouns         :
+  bio              : "Research Development Professional<br>Program Manager<br>Communication Scholar"
+  location         : "East Lansing, Michigan"
+  uri              :
+  email            :
 
   # Academic websites
   academia         : # URL
