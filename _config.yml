@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title : "Ning Xie"
 title_separator : "|"
 name : &name "Ning Xie"
-description : &description "Research Development Professional, Program Manager, Communication Scholar"   # Update this with a general description of your site, this is the default if not overridden by a page
+description : &description ""   # Update this with a general description of your site, this is the default if not overridden by a page
 url : "https://ningxiephd.github.io"
 baseurl : "/ningxie-website"
 repository : "ningxiephd/ningxie-website"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Ning Xie"
   pronouns         :
-  bio              : "Research Development Professional<br>Program Manager<br>Communication Scholar"
+  bio              : ""
   location         : "East Lansing, Michigan"
   uri              :
   email            :
