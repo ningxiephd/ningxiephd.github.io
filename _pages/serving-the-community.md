@@ -1,5 +1,5 @@
 ---
 permalink: /serving-the-community/
-title: "Serving the Community"
+title: "Community Engagement"
 author_profile: true
 ---
