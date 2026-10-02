@@ -4,6 +4,7 @@ title: ""
 permalink: /grant-research-development/
 author_profile: true
 ---
+<!-- Grant headings match Community Engagement h2 styling -->
 I focus on the work that supports successful research initiatives: identifying funding opportunities, connecting researchers and partners, developing proposals, and establishing effective processes for project implementation. I have nearly five years of experience coordinating academic programs and international partnerships, and seven years of experience collaborating on multidisciplinary health research.
 
 <h2 style="border-left: 6px solid #18453B; background-color: #edf4f0; color: #18453B; padding: 12px 16px; margin-top: 2em; margin-bottom: 1.2em;">External Funding & Proposal Development</h2>
