@@ -1,6 +1,5 @@
 ---
 permalink: /research/
-title: "Research"
 author_profile: true
 ---
 
@@ -18,9 +17,13 @@ My research in strategic communication focuses on the role of emotions in organi
 
 My research also examines trust in AI-generated communication. Using survey data, I am investigating how perceived transparency and empathy relate to trust and engagement. This work lays the foundation for future research on technology-mediated health interventions and digital communication strategies.
 
+---
+
 ## Interdisciplinary Health Research
 
 Since 2019, I have contributed to a multidisciplinary and international health research collaboration. Working alongside researchers from public health, epidemiology, medicine, and biomedical sciences, I have contributed to five peer-reviewed health-related publications. My contributions include literature synthesis, quantitative analysis, manuscript development, and substantive editing.
+
+---
 
 ## Research Methods
 
