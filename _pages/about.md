@@ -10,6 +10,7 @@ redirect_from:
 **Ning Xie, Ph.D.**
 
 I am a communication scholar who also works on the program side of the university: managing programs, building international partnerships, and supporting research funding and proposal development. My work bridges scholarly inquiry and strategic administration by connecting researchers, funding opportunities, and program management to build collaborative initiatives.
+<img src="{{ '/images/academic-journey-map.png' | relative_url }}" alt="My Academic Journey map" style="width:100%; height:auto; margin: 1.5rem 0 2rem 0;">
 
 ### Experience Highlights
 
