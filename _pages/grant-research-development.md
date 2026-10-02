@@ -4,36 +4,21 @@ title: ""
 permalink: /grant-research-development/
 author_profile: true
 ---
-<style>
-/* Equal-level section headings with the same small vertical-line treatment. */
-.page__content h2.grant-section-heading {
-  color: #24332d;
-  font-size: 1.12em;
-  font-weight: 700;
-  line-height: 1.4;
-  border: 0;
-  border-left: 3px solid #9cb8aa;
-  background: transparent;
-  padding: 0.1em 0 0.1em 0.8em;
-  margin: 1.65em 0 0.7em;
-}
-</style>
-
 I focus on the work that supports successful research initiatives: identifying funding opportunities, connecting researchers and partners, developing proposals, and establishing effective processes for project implementation. I have nearly five years of experience coordinating academic programs and international partnerships, and seven years of experience collaborating on multidisciplinary health research.
 
-<h2 class="grant-section-heading">External Funding & Proposal Development</h2>
+# External Funding & Proposal Development
 
 My proposal development experience includes serving as both Principal Investigator (PI) and Co-Principal Investigator (Co-PI) on external funding applications. These projects have involved developing research objectives, preparing project narratives, defining scopes of work, designing research methods, developing budgets and budget justifications, establishing project timelines, and preparing submission materials. I actively follow funding opportunities and research priorities across federal agencies and private foundations.
 
-<h2 class="grant-section-heading">Multidisciplinary Health Research</h2>
+# Multidisciplinary Health Research
 
 Since 2019, I have contributed to a multidisciplinary, international health research collaboration. The collaboration brings together researchers across public health, epidemiology, oncology, neurology, surgery, nursing, pharmacy, and biomedical sciences. My contributions have included literature synthesis, quantitative data analysis, manuscript development, project materials, and substantive editing. Working across disciplines and institutions has strengthened my understanding of collaborative research.
 
-<h2 class="grant-section-heading">University Program & Partnership Development</h2>
+# University Program & Partnership Development
 
 From 2019 to 2024, I was an International Program Officer at the University of Louisville. I supported the operations of several graduate and professional programs, worked with academic leadership on international partnerships, and coordinated across university offices, overseas universities, and external organizations. I supported discussions on memoranda of understanding, customized academic programs, and curriculum alignment. I also organized international recruitment and partnership trips.
 
-<h2 class="grant-section-heading">How I Approach Research Development</h2>
+# How I Approach Research Development
 
 Effective research development begins well before a proposal deadline and extends beyond submission. My approach centers on four interconnected areas:
 
